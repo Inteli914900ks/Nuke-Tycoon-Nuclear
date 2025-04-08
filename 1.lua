@@ -1,5 +1,4 @@
-local function Main()
-    local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Nuke Tycoon Nuclear",
@@ -572,8 +571,3 @@ end
 
    end,
 })
-end
-
-if game.Players.LocalPlayer.Name == "VortexFlashSkater" then
-    Main()
-end
